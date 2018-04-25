@@ -74,6 +74,11 @@
         <mark key="]" line="8" column="27" />
         <mark key="." line="8" column="27" />
       </file>
+      <file name="$USER_HOME$/PycharmProjects/neural_try/olymp.py" timestamp="1524671154131">
+        <mark key="[" line="2" column="6" />
+        <mark key="]" line="2" column="6" />
+        <mark key="." line="2" column="6" />
+      </file>
       <file name="$USER_HOME$/PycharmProjects/aihack_cv_test/glyphfunctions.py" timestamp="1519755148523">
         <mark key="[" line="0" column="0" />
       </file>
@@ -200,7 +205,7 @@
 reg = linear_model.LinearRegression()</text>
       </register>
       <register name="&quot;" type="4">
-        <text>Lasso coefficient</text>
+        <text>tru</text>
       </register>
       <register name="2" type="4">
         <text>from sklearn import linear_model
@@ -268,7 +273,7 @@ with open(args.output, &quot;w&quot;) as file:
     print(&quot;ghjkl&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>Lasso coefficient</text>
+        <text>tru</text>
       </register>
     </registers>
     <search>
