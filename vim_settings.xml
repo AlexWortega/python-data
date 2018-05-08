@@ -74,11 +74,6 @@
         <mark key="]" line="8" column="27" />
         <mark key="." line="8" column="27" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/neural_try/olymp.py" timestamp="1524671154131">
-        <mark key="[" line="2" column="6" />
-        <mark key="]" line="2" column="6" />
-        <mark key="." line="2" column="6" />
-      </file>
       <file name="$USER_HOME$/PycharmProjects/aihack_cv_test/glyphfunctions.py" timestamp="1519755148523">
         <mark key="[" line="0" column="0" />
       </file>
@@ -201,13 +196,23 @@
     </jumps>
     <registers>
       <register name="1" type="4">
+        <text encoding="base64">CmZsb2F0</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text encoding="base64">CmZsb2F0</text>
+      </register>
+      <register name="2" type="4">
+        <text>while (j == 0) :
+    k=k+1;
+    print(k)
+    if ((5**(1023*k)-1) % 31 == 0):
+        print(k)</text>
+      </register>
+      <register name="3" type="4">
         <text>from sklearn import linear_model
 reg = linear_model.LinearRegression()</text>
       </register>
-      <register name="&quot;" type="4">
-        <text>tru</text>
-      </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>from sklearn import linear_model
 reg = linear_model.LinearRegression()
 reg.fit ([[0, 0], [1, 1], [2, 2]], [0, 1, 2])
@@ -215,7 +220,7 @@ LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
 reg.coef_
 array([ 0.5,  0.5])</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>from sklearn import linear_model
 
 reg = linear_model.LinearRegression()
@@ -224,53 +229,20 @@ LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
 reg.coef_
 array([0.5, 0.5])</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text># -*- coding: utf-8 -*-
 
 # Будем приобщаться к стилю Python 3...</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text encoding="base64">CmltcG9ydCB0aW1l</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text encoding="base64">CiMgyO3o9ujg6+jn4Pbo/yDx8OXk+yDs7uTl6+jw7uLg7ej/</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>import simpy
 from simpy import simpy</text>
-      </register>
-      <register name="8" type="4">
-        <text>import argparse
-import os
-parser = argparse.ArgumentParser()
-parser.add_argument(&quot;-i&quot;, &quot;--input&quot;, type=str, default=&quot;positive&quot;)
-parser.add_argument(&quot;-o&quot;, &quot;--output&quot;, type=str, default=&quot;positive.dat&quot;)
-parser.add_argument(&quot;-w&quot;, &quot;--width&quot;, type=int)
-parser.add_argument(&quot;--height&quot;, type=int)
-parser.add_argument(&quot;-e&quot;, &quot;--extension&quot;, type=str, default=&quot;jpg&quot;)
-parser.add_argument(&quot;-n&quot;, &quot;--number&quot;, type=int)
-args = parser.parse_args()
-
-
-print('Trying to list', args.number, 'files...')
-
-positives = glob(&quot;%s/*.%s&quot; % (args.input, args.extension))[:args.number]
-
-def trans(filename):
-    unescape = filename.replace(os.sep, '/')
-    return &quot;%s 1 0 0 %d %d&quot; % (unescape, args.width, args.height)
-
-positives = map(trans, positives)
-
-print('Listed', len(positives), 'files')
-
-with open(args.output, &quot;w&quot;) as file:
-    for item in positives:
-        file.write(&quot;%s\n&quot; % item)</text>
-      </register>
-      <register name="9" type="4">
-        <text>ef tree(a):
-    print(&quot;ghjkl&quot;)</text>
       </register>
       <register name="-" type="4">
         <text>tru</text>
