@@ -26,13 +26,13 @@
       <file name="/a.dummy" timestamp="1521661358408">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/genetic_alogoritm/fin.py" timestamp="1521661886061">
+      <file name="$USER_HOME$/PycharmProjects/genetic_alogoritm/fin.py" timestamp="1526128019345">
         <mark key="[" line="25" column="26" />
         <mark key="]" line="25" column="26" />
         <mark key="." line="25" column="26" />
       </file>
-      <file name="$USER_HOME$/Downloads/pylive.py" timestamp="1522313406611">
-        <mark key="[" line="8" column="0" />
+      <file name="$USER_HOME$/Downloads/pylive.py" timestamp="1526127827591">
+        <mark key="[" line="79" column="12" />
         <mark key="]" line="2" column="31" />
         <mark key="." line="2" column="31" />
       </file>
@@ -63,11 +63,14 @@
       <file name="$USER_HOME$/PycharmProjects/haar-TRAINER/neg.py" timestamp="1519982548883">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/neural_try/facereco.py" timestamp="1522360992858">
+      <file name="$USER_HOME$/PycharmProjects/neural_try/facereco.py" timestamp="1526127272445">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/aihack_cv_test/effects.py" timestamp="1519755209572">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/genetic_alogoritm/evolution.py" timestamp="1526128049077">
+        <mark key="[" line="2" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/untitled/bot_iii.py" timestamp="1518541658823">
         <mark key="[" line="8" column="27" />
@@ -105,14 +108,14 @@
         <mark key="]" line="0" column="1" />
         <mark key="." line="0" column="1" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/msu/msu.py" timestamp="1522313254912">
-        <mark key="[" line="11" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/msu/msu.py" timestamp="1526127510768">
+        <mark key="[" line="7" column="26" />
         <mark key="]" line="36" column="1" />
         <mark key="." line="36" column="1" />
         <mark key="^" line="30" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/genetic_alogoritm/neural_neyrn.py" timestamp="1522313110709">
-        <mark key="[" line="32" column="23" />
+      <file name="$USER_HOME$/PycharmProjects/genetic_alogoritm/neural_neyrn.py" timestamp="1526127948629">
+        <mark key="[" line="11" column="26" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/untitled/alex.py" timestamp="1520091984888">
         <mark key="[" line="33" column="1" />
@@ -130,7 +133,7 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/msu/bot.py" timestamp="1522313218200">
+      <file name="$USER_HOME$/PycharmProjects/msu/bot.py" timestamp="1526127387058">
         <mark key="[" line="46" column="35" />
         <mark key="]" line="52" column="41" />
         <mark key="." line="52" column="41" />
@@ -172,10 +175,10 @@
         <mark key="]" line="23" column="4" />
         <mark key="." line="23" column="4" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/haar_make/UI+PIL.py" timestamp="1519840778736">
-        <mark key="[" line="29" column="8" />
-        <mark key="]" line="29" column="8" />
-        <mark key="." line="29" column="8" />
+      <file name="$USER_HOME$/PycharmProjects/haar_make/UI+PIL.py" timestamp="1526127770534">
+        <mark key="[" line="59" column="33" />
+        <mark key="]" line="59" column="33" />
+        <mark key="." line="59" column="33" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/aihack_cv_test/webcam.py" timestamp="1519755241810">
         <mark key="[" line="0" column="0" />
@@ -199,7 +202,7 @@
         <text encoding="base64">CmZsb2F0</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">CmZsb2F0</text>
+        <text>Hey there good lookin!</text>
       </register>
       <register name="2" type="4">
         <text>while (j == 0) :
@@ -245,7 +248,7 @@ array([0.5, 0.5])</text>
 from simpy import simpy</text>
       </register>
       <register name="-" type="4">
-        <text>tru</text>
+        <text>Hey there good lookin!</text>
       </register>
     </registers>
     <search>
