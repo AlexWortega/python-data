@@ -17,6 +17,11 @@
       <file name="/a.dummy" timestamp="1521661358408">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/PycharmProjects/school_neural_network/try.py" timestamp="1526504959439">
+        <mark key="[" line="11" column="4" />
+        <mark key="]" line="11" column="4" />
+        <mark key="." line="11" column="4" />
+      </file>
       <file name="$USER_HOME$/PycharmProjects/aihack_cv_test/glyphdatabase.py" timestamp="1519755186228">
         <mark key="[" line="0" column="0" />
       </file>
@@ -198,17 +203,12 @@
     </jumps>
     <registers>
       <register name="1" type="4">
-        <text>from  sklearn import sv
-clf.fit(digits.data[:-1], digits.target[:-1])
-SVC(C=100.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma=0.001, kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)
-
-clf.predict(digits.data[-1:])
-array([8])</text>
+        <text encoding="base64">CnBsdC50aXRsZSgnwM3E0MXJIM/IxM7QwNEgxcHAzc3byScp</text>
       </register>
       <register name="&quot;" type="4">
+        <text>rs.randint(0,100, size=(n,)) + 56. * np.log(1 + np.arange(n))</text>
+      </register>
+      <register name="2" type="4">
         <text>from  sklearn import sv
 clf.fit(digits.data[:-1], digits.target[:-1])
 SVC(C=100.0, cache_size=200, class_weight=None, coef0=0.0,
@@ -219,24 +219,24 @@ SVC(C=100.0, cache_size=200, class_weight=None, coef0=0.0,
 clf.predict(digits.data[-1:])
 array([8])</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">CnByaW50IHRlc3RfbGFiZWxz</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">CmZsb2F0</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>while (j == 0) :
     k=k+1;
     print(k)
     if ((5**(1023*k)-1) % 31 == 0):
         print(k)</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>from sklearn import linear_model
 reg = linear_model.LinearRegression()</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>from sklearn import linear_model
 reg = linear_model.LinearRegression()
 reg.fit ([[0, 0], [1, 1], [2, 2]], [0, 1, 2])
@@ -244,7 +244,7 @@ LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
 reg.coef_
 array([ 0.5,  0.5])</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>from sklearn import linear_model
 
 reg = linear_model.LinearRegression()
@@ -253,16 +253,13 @@ LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
 reg.coef_
 array([0.5, 0.5])</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text># -*- coding: utf-8 -*-
 
 # Будем приобщаться к стилю Python 3...</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">CmltcG9ydCB0aW1l</text>
-      </register>
       <register name="-" type="4">
-        <text>Hey there good lookin!</text>
+        <text>rs.randint(0,100, size=(n,)) + 56. * np.log(1 + np.arange(n))</text>
       </register>
     </registers>
     <search>
