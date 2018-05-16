@@ -9,8 +9,10 @@
       <file name="$USER_HOME$/PycharmProjects/ьыг/sfg.py" timestamp="1520157392377">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/school_neural_network/network.py" timestamp="1526488344862">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/school_neural_network/network.py" timestamp="1526489108974">
+        <mark key="[" line="16" column="43" />
+        <mark key="]" line="16" column="43" />
+        <mark key="." line="16" column="43" />
       </file>
       <file name="/a.dummy" timestamp="1521661358408">
         <mark key="[" line="0" column="0" />
@@ -76,12 +78,6 @@
         <mark key="]" line="33" column="1" />
         <mark key="." line="33" column="1" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/haar_make/kirrail.py" timestamp="1520703414246">
-        <mark key="'" line="3" column="22" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
-      </file>
       <file name="$USER_HOME$/PycharmProjects/untitled/derfa.py" timestamp="1520706164314">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -120,7 +116,7 @@
         <mark key="]" line="0" column="4" />
         <mark key="." line="0" column="4" />
       </file>
-      <file name="/Python Console" timestamp="1518895265043">
+      <file name="/Python Console" timestamp="1526489318022">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1519581816081">
@@ -202,23 +198,26 @@
     </jumps>
     <registers>
       <register name="1" type="4">
-        <text encoding="base64">CmZsb2F0</text>
+        <text encoding="base64">CnByaW50IHRlc3RfbGFiZWxz</text>
       </register>
       <register name="&quot;" type="4">
-        <text>Hey there good lookin!</text>
+        <text encoding="base64">CnByaW50IHRlc3RfbGFiZWxz</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">CmZsb2F0</text>
+      </register>
+      <register name="3" type="4">
         <text>while (j == 0) :
     k=k+1;
     print(k)
     if ((5**(1023*k)-1) % 31 == 0):
         print(k)</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>from sklearn import linear_model
 reg = linear_model.LinearRegression()</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>from sklearn import linear_model
 reg = linear_model.LinearRegression()
 reg.fit ([[0, 0], [1, 1], [2, 2]], [0, 1, 2])
@@ -226,7 +225,7 @@ LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
 reg.coef_
 array([ 0.5,  0.5])</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>from sklearn import linear_model
 
 reg = linear_model.LinearRegression()
@@ -235,20 +234,16 @@ LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
 reg.coef_
 array([0.5, 0.5])</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text># -*- coding: utf-8 -*-
 
 # Будем приобщаться к стилю Python 3...</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">CmltcG9ydCB0aW1l</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">CiMgyO3o9ujg6+jn4Pbo/yDx8OXk+yDs7uTl6+jw7uLg7ej/</text>
-      </register>
       <register name="9" type="4">
-        <text>import simpy
-from simpy import simpy</text>
+        <text encoding="base64">CiMgyO3o9ujg6+jn4Pbo/yDx8OXk+yDs7uTl6+jw7uLg7ej/</text>
       </register>
       <register name="-" type="4">
         <text>Hey there good lookin!</text>
