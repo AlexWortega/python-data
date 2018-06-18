@@ -83,7 +83,7 @@
         <mark key="]" line="33" column="1" />
         <mark key="." line="33" column="1" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/photolab/curl.py" timestamp="1528966820885">
+      <file name="$USER_HOME$/PycharmProjects/photolab/curl.py" timestamp="1529313633953">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -126,7 +126,7 @@
         <mark key="]" line="0" column="4" />
         <mark key="." line="0" column="4" />
       </file>
-      <file name="/Python Console" timestamp="1528969242055">
+      <file name="/Python Console" timestamp="1529313842398">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1519581816081">
@@ -180,7 +180,7 @@
         <mark key="]" line="52" column="16" />
         <mark key="." line="52" column="16" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/photolab/tf.py" timestamp="1528969408067">
+      <file name="$USER_HOME$/PycharmProjects/photolab/tf.py" timestamp="1528970338959">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -223,15 +223,40 @@
     </jumps>
     <registers>
       <register name="1" type="4">
-        <text encoding="base64">ICAgIHByaW50KGFbaV0pCiA=</text>
+        <text>import evdev
+
+ device = evdev.InputDevice('/dev/input/event1')
+ print(device)
+    
+
+ for event in device.read_loop():
+     if event.type == evdev.ecodes.EV_KEY:
+         print(evdev.categorize(event))</text>
       </register>
       <register name="&quot;" type="4">
-        <text>a=print('Mem1\n')</text>
+        <text>import evdev
+
+ device = evdev.InputDevice('/dev/input/event1')
+ print(device)
+    
+
+ for event in device.read_loop():
+     if event.type == evdev.ecodes.EV_KEY:
+         print(evdev.categorize(event))</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">CmltcG9ydCBweWdhbWU=</text>
+        <text encoding="base64">CmZyb20gcHlnYW1lLnJlY3QgaW1wb3J0IFJlY3QKCgpjbGFzcyBHYW1lT2JqZWN0OgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHgsIHksIHcsIGgsIHNwZWVkPSgwLDApKToKICAgICAgICBzZWxmLmJvdW5kcyA9IFJlY3QoeCwgeSwgdywgaCkKICAgICAgICBzZWxmLnNwZWVkID0gc3BlZWQKCiAgICBAcHJvcGVydHkKICAgIGRlZiBsZWZ0KHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5sZWZ0CgogICAgQHByb3BlcnR5CiAgICBkZWYgcmlnaHQoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYuYm91bmRzLnJpZ2h0CgogICAgQHByb3BlcnR5CiAgICBkZWYgdG9wKHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy50b3AKCiAgICBAcHJvcGVydHkKIAogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5jZW50ZXJ4</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">ICAgZGVmIGJvdHRvbShzZWxmKToKCiAgICAgICAgQHByb3BlcnR5CiAgICAgICAgZGVmIGNlbnRlcnkoc2VsZik6CiAgICAgICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5jZW50ZXJ5CgogICAgICAgIGRlZiBkcmF3KHNlbGYsIHN1cmZhY2UpOgogICAgICAgICAgICBwYXNzCgogICAgICAgIGRlZiBtb3ZlKHNlbGYsIGR4LCBkeSk6CiAgICAgICAgICAgIHNlbGYuYm91bmRzID0gc2VsZi5ib3VuZHMubW92ZShkeCwgZHkpCgogICAgICAgIGRlZiB1cGRhdGUoc2VsZik6CiAgICAgICAgICAgIGlmIHNlbGYuc3BlZWQgPT0gWzAsIDBdOgogICAgICAgICAgICAgICAgcmV0dXJuCgogICAgICAgICAgICBzZWxmLm1vdmUoKnNlbGYuc3BlZWQpCgogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5ib3R0b20KCiAgICBAcHJvcGVydHkKICAgIGRlZiB3aWR0aChzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5ib3VuZHMud2lkdGgKCiAgICBAcHJvcGVydHkKICAgIGRlZiBoZWlnaHQoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYuYm91bmRzLmhlaWdodAoKICAgIEBwcm9wZXJ0eQogICAgZGVmIGNlbnRlcihzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5ib3VuZHMuY2VudGVyCgogICAgQHByb3BlcnR5CiAgICBkZWYgY2VudGVyeChzZWxmKTo=</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgIHByaW50KGFbaV0pCiA=</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">CmltcG9ydCBweWdhbWU=</text>
+      </register>
+      <register name="6" type="4">
         <text>files = {
     'file1': ('./girl.jpg', open('./girl.jpg', 'rb')),
     'no_resize': (None, '1'),
@@ -240,7 +265,7 @@
 response = requests.post('http://upload-hack.photolab.me/upload.php', files=files)
 print(response)</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>import requests
 
 cookies = {
@@ -252,31 +277,14 @@ response = requests.delete('http://dev-lab.info/api/%0Aarticles/45', cookies=coo
 
 print (response)</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text encoding="base64">CmZyb20gcmVxdWVzdHMgaW1wb3J0IGN1cmw=</text>
       </register>
-      <register name="6" type="4">
+      <register name="9" type="4">
         <text encoding="base64">Cjc4ZmZhNDc4OWM2MmUzODdkZWQ5NTBiMGRkODgxMDkxZjY4ODIwNmE0ZjM2MWZhY2YxNGViYzZjYzExNGNmMjM2ODFjNGQ0NmIzMTk5ZTMzOTg5ZGI=</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">CnBsdC50aXRsZSgnwM3E0MXJIM/IxM7QwNEgxcHAzc3byScp</text>
-      </register>
-      <register name="8" type="4">
-        <text>from  sklearn import sv
-clf.fit(digits.data[:-1], digits.target[:-1])
-SVC(C=100.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma=0.001, kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)
-
-clf.predict(digits.data[-1:])
-array([8])</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">CnByaW50IHRlc3RfbGFiZWxz</text>
-      </register>
       <register name="-" type="4">
-        <text>a=print('Mem1\n')</text>
+        <text>evice /dev/input/event1, name &quot;USB Keyboard&quot;, phys &quot;usb-0000:00:12.1-2/input0&quot;</text>
       </register>
     </registers>
     <search>
