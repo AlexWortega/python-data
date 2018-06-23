@@ -25,6 +25,11 @@
       <file name="$USER_HOME$/PycharmProjects/aihack_cv_test/glyphdatabase.py" timestamp="1519755186228">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/PycharmProjects/untitled1/NEIRONKA.py" timestamp="1529760242142">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/PycharmProjects/tensorflow/Keras_test.py" timestamp="1519297083864">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="2" column="0" />
@@ -228,23 +233,26 @@
     </jumps>
     <registers>
       <register name="1" type="4">
+        <text encoding="base64">aW1wb3J0IGN2MgppbXBvcnQgbnVtcHkgYXMgbnAKCmNhdF9pbWFnZSA9IGN2Mi5pbXJlYWQoJ2tvdC1yeXpoaXktdHJhdmEtY3ZldHkuanBnJykKcHJpbnQodHlwZShjYXRfaW1hZ2UpLCBjYXRfaW1hZ2Uuc2hhcGUpCgo8Y2xhc3MgJ251bXB5Lm5kYXJyYXknPiAoMzgwLCA1OTYsIA==</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text encoding="base64">aW1wb3J0IGN2MgppbXBvcnQgbnVtcHkgYXMgbnAKCmNhdF9pbWFnZSA9IGN2Mi5pbXJlYWQoJ2tvdC1yeXpoaXktdHJhdmEtY3ZldHkuanBnJykKcHJpbnQodHlwZShjYXRfaW1hZ2UpLCBjYXRfaW1hZ2Uuc2hhcGUpCgo8Y2xhc3MgJ251bXB5Lm5kYXJyYXknPiAoMzgwLCA1OTYsIA==</text>
+      </register>
+      <register name="2" type="4">
         <text>import evdev
 
 devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
                 for device in devices:</text>
       </register>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICAgICAgcHJpbnQoZGV2aWNlLnBhdGgsIGRldmljZS5uYW1lLCBkZXZpY2UucGh5cyk=</text>
-      </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>k = list(for win32api.FindFiles('users') in range(0,1000,1))
 print(k)</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>k=win32api.GetComputerName()
 s=win32api.GetLogicalDriveStrings()</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>import evdev
 
  device = evdev.InputDevice('/dev/input/event1')
@@ -255,26 +263,17 @@ s=win32api.GetLogicalDriveStrings()</text>
      if event.type == evdev.ecodes.EV_KEY:
          print(evdev.categorize(event))</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">CmZyb20gcHlnYW1lLnJlY3QgaW1wb3J0IFJlY3QKCgpjbGFzcyBHYW1lT2JqZWN0OgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHgsIHksIHcsIGgsIHNwZWVkPSgwLDApKToKICAgICAgICBzZWxmLmJvdW5kcyA9IFJlY3QoeCwgeSwgdywgaCkKICAgICAgICBzZWxmLnNwZWVkID0gc3BlZWQKCiAgICBAcHJvcGVydHkKICAgIGRlZiBsZWZ0KHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5sZWZ0CgogICAgQHByb3BlcnR5CiAgICBkZWYgcmlnaHQoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYuYm91bmRzLnJpZ2h0CgogICAgQHByb3BlcnR5CiAgICBkZWYgdG9wKHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy50b3AKCiAgICBAcHJvcGVydHkKIAogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5jZW50ZXJ4</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">ICAgZGVmIGJvdHRvbShzZWxmKToKCiAgICAgICAgQHByb3BlcnR5CiAgICAgICAgZGVmIGNlbnRlcnkoc2VsZik6CiAgICAgICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5jZW50ZXJ5CgogICAgICAgIGRlZiBkcmF3KHNlbGYsIHN1cmZhY2UpOgogICAgICAgICAgICBwYXNzCgogICAgICAgIGRlZiBtb3ZlKHNlbGYsIGR4LCBkeSk6CiAgICAgICAgICAgIHNlbGYuYm91bmRzID0gc2VsZi5ib3VuZHMubW92ZShkeCwgZHkpCgogICAgICAgIGRlZiB1cGRhdGUoc2VsZik6CiAgICAgICAgICAgIGlmIHNlbGYuc3BlZWQgPT0gWzAsIDBdOgogICAgICAgICAgICAgICAgcmV0dXJuCgogICAgICAgICAgICBzZWxmLm1vdmUoKnNlbGYuc3BlZWQpCgogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5ib3R0b20KCiAgICBAcHJvcGVydHkKICAgIGRlZiB3aWR0aChzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5ib3VuZHMud2lkdGgKCiAgICBAcHJvcGVydHkKICAgIGRlZiBoZWlnaHQoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYuYm91bmRzLmhlaWdodAoKICAgIEBwcm9wZXJ0eQogICAgZGVmIGNlbnRlcihzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5ib3VuZHMuY2VudGVyCgogICAgQHByb3BlcnR5CiAgICBkZWYgY2VudGVyeChzZWxmKTo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ICAgIHByaW50KGFbaV0pCiA=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">CmltcG9ydCBweWdhbWU=</text>
-      </register>
       <register name="9" type="4">
-        <text>files = {
-    'file1': ('./girl.jpg', open('./girl.jpg', 'rb')),
-    'no_resize': (None, '1'),
-}
-
-response = requests.post('http://upload-hack.photolab.me/upload.php', files=files)
-print(response)</text>
+        <text encoding="base64">CmltcG9ydCBweWdhbWU=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ICAgICAgICAgcHJpbnQoZGV2aWNlLnBhdGgsIGRldmljZS5uYW1lLCBkZXZpY2UucGh5cyk=</text>
@@ -308,6 +307,9 @@ print(response)</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed N</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
