@@ -204,6 +204,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/PycharmProjects/msu/bot.py" timestamp="1532343651603" />
       <file name="$USER_HOME$/PycharmProjects/vk_pars/files.py" timestamp="1528388027063">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -226,8 +227,10 @@
       <file name="$USER_HOME$/PycharmProjects/haar-TRAINER/train_bash.sh" timestamp="1519982381292">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/camp_site/bot.py" timestamp="1532339368878">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/camp_site/bot.py" timestamp="1532344072071">
+        <mark key="[" line="33" column="7" />
+        <mark key="]" line="33" column="7" />
+        <mark key="." line="33" column="7" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/haar-TRAINER/trainer.py" timestamp="1519982254639">
         <mark key="[" line="0" column="0" />
@@ -244,7 +247,7 @@
         <text encoding="base64">ICB0cmVlKHVzZXIpCiAgICBmb3Igd2luZSBpbiBuYW1lOgogICAgICAgIGkgPSBpICsgMQogICAgICAgIGlmIHRleHQgPT0gd2luZToKICAgICAgICAgICAgZm9yIGNhbCBpbiBzdWdhcjoKICAgICAgICAgICAgICAgIGogPSBqICsgMQogICAgICAgICAgICAgICAgaWYgaiA9PSBpOgogICAgICAgICAgICAgICAgICByZXR1cm4gd2lu</text>
       </register>
       <register name="&quot;" type="4">
-        <text />
+        <text encoding="base64">IGJvdC5zZW5kX21lc3NhZ2UobWVzc2FnZS5jaGF0LmlkLCByYW5kb20uY2hvaWNlKG5hbWUpKQ==</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">ICAgIGJvdC5zZW5kX21lc3NhZ2UobWVzc2FnZS5jaGF0LmlkLCAiIM3g6eTzIOLg7CD38u4g7egg4fPk/CIsIHJlcGx5X21hcmt1cD1rZXlib2FyZCkKICAgICAgICB0aW1lLnNsZWVwKDIpCiAgICAgICAgYm90LnNlbmRfbWVzc2FnZShtZXNzYWdlLmNoYXQuaWQsIiDS7vft7vHy/CA6IDAuOTMzIikKICAgICAgICBib3Quc2VuZF9waG90byhtZXNzYWdlLmNoYXQuaWQsICdodHRwOi8vY3VsaW5hcnlzY2hvb2wucnUvcHJvZmVzc2l5YS1zb21lbGllLycpCiAgICAgICAgdGltZS5zbGVlcCgyKQogICAgICAgIGJvdC5zZW5kX3Bob3RvKG1lc3NhZ2UuY2hhdC5pZCwgJ2h0dHA6Ly9tcG9ydC51YS9iYXIvc29tZWx5ZS8xNTI4MDgyLVNvdmV0LWRuamEtb3Qtc29tZWwtZS0tZGVndXN0aXJ1ai1zLXJ1Y2hrb2onKQogICAgICAgIHRpbWUuc2xlZXAoMikKICAgICAgICBib3QgLnNlbmRfcGhvdG8obWVzc2FnZS5jaGF0LmlkLCdodHRwczovL3Rvd2FyZHNkYXRhc2NpZW5jZS5jb20vcmFuZG9tLWZvcmVzdC1sZWFybmluZy1lc3NlbnRpYWwtdW5kZXJzdGFuZGluZy0xY2E4NTZhOTYzY2InKQogICAgICAgIHRpbWUuc2xlZXAoNik=</text>
@@ -290,7 +293,7 @@ devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
 print(k)</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text encoding="base64">IGJvdC5zZW5kX21lc3NhZ2UobWVzc2FnZS5jaGF0LmlkLCByYW5kb20uY2hvaWNlKG5hbWUpKQ==</text>
       </register>
     </registers>
     <search>
