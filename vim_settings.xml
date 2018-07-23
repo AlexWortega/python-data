@@ -204,11 +204,6 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/msu/bot.py" timestamp="1526127387058">
-        <mark key="[" line="46" column="35" />
-        <mark key="]" line="52" column="41" />
-        <mark key="." line="52" column="41" />
-      </file>
       <file name="$USER_HOME$/PycharmProjects/vk_pars/files.py" timestamp="1528388027063">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -231,6 +226,9 @@
       <file name="$USER_HOME$/PycharmProjects/haar-TRAINER/train_bash.sh" timestamp="1519982381292">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/PycharmProjects/camp_site/bot.py" timestamp="1532339368878">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/PycharmProjects/haar-TRAINER/trainer.py" timestamp="1519982254639">
         <mark key="[" line="0" column="0" />
       </file>
@@ -243,58 +241,56 @@
     </jumps>
     <registers>
       <register name="1" type="4">
-        <text>import  socket
-host = ''
-input(host)
-sock = socket.socket()
-sock.blind((host,9000))</text>
+        <text encoding="base64">ICB0cmVlKHVzZXIpCiAgICBmb3Igd2luZSBpbiBuYW1lOgogICAgICAgIGkgPSBpICsgMQogICAgICAgIGlmIHRleHQgPT0gd2luZToKICAgICAgICAgICAgZm9yIGNhbCBpbiBzdWdhcjoKICAgICAgICAgICAgICAgIGogPSBqICsgMQogICAgICAgICAgICAgICAgaWYgaiA9PSBpOgogICAgICAgICAgICAgICAgICByZXR1cm4gd2lu</text>
       </register>
       <register name="&quot;" type="4">
+        <text />
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgIGJvdC5zZW5kX21lc3NhZ2UobWVzc2FnZS5jaGF0LmlkLCAiIM3g6eTzIOLg7CD38u4g7egg4fPk/CIsIHJlcGx5X21hcmt1cD1rZXlib2FyZCkKICAgICAgICB0aW1lLnNsZWVwKDIpCiAgICAgICAgYm90LnNlbmRfbWVzc2FnZShtZXNzYWdlLmNoYXQuaWQsIiDS7vft7vHy/CA6IDAuOTMzIikKICAgICAgICBib3Quc2VuZF9waG90byhtZXNzYWdlLmNoYXQuaWQsICdodHRwOi8vY3VsaW5hcnlzY2hvb2wucnUvcHJvZmVzc2l5YS1zb21lbGllLycpCiAgICAgICAgdGltZS5zbGVlcCgyKQogICAgICAgIGJvdC5zZW5kX3Bob3RvKG1lc3NhZ2UuY2hhdC5pZCwgJ2h0dHA6Ly9tcG9ydC51YS9iYXIvc29tZWx5ZS8xNTI4MDgyLVNvdmV0LWRuamEtb3Qtc29tZWwtZS0tZGVndXN0aXJ1ai1zLXJ1Y2hrb2onKQogICAgICAgIHRpbWUuc2xlZXAoMikKICAgICAgICBib3QgLnNlbmRfcGhvdG8obWVzc2FnZS5jaGF0LmlkLCdodHRwczovL3Rvd2FyZHNkYXRhc2NpZW5jZS5jb20vcmFuZG9tLWZvcmVzdC1sZWFybmluZy1lc3NlbnRpYWwtdW5kZXJzdGFuZGluZy0xY2E4NTZhOTYzY2InKQogICAgICAgIHRpbWUuc2xlZXAoNik=</text>
+      </register>
+      <register name="3" type="4">
+        <text>sugar = [7, 9, 12, 6, 6, 6, 9, 6, 6, 8, 9]
+ph = [12,34,56,67,78,54,43]
+user = [id,ph,sugar]</text>
+      </register>
+      <register name="4" type="4">
+        <text>name = [&quot;Chernomorskaya istina merlo kuban&quot;, &quot;sukhoye Krymskiy Vinnyy zavod Merlo&quot;, &quot;polusladkoye Agora&quot;,
+            &quot; Sladkoye Gelendzhik krasnoye&quot;, &quot;sukhoye Vina tamani&quot;, &quot; kaberne&quot;, &quot; stolovoye sukhoye&quot;
+                                                                                &quot;Tamanskiy pogreb&quot;, &quot;sukhoy Krymskoye&quot;,
+            &quot;polusladkoye Gelendzhik krasnoye&quot;, &quot;sukhoye&quot;, &quot;NEW Vina tamani kaberne stolovoye&quot;, &quot;sukhoye&quot;,
+            &quot;NEW Tamanskiy pogreb&quot;,</text>
+      </register>
+      <register name="5" type="4">
+        <text>sugar = [7, 9, 12, 6, 6, 6, 9, 6, 6, 8, 9]
+    name = [&quot;Chernomorskaya istina merlo kuban&quot;, &quot;sukhoye Krymskiy Vinnyy zavod Merlo&quot;, &quot;polusladkoye Agora&quot;,
+            &quot; Sladkoye Gelendzhik krasnoye&quot;, &quot;sukhoye Vina tamani&quot;, &quot; kaberne&quot;, &quot; stolovoye sukhoye&quot;
+                                                                                &quot;Tamanskiy pogreb&quot;, &quot;sukhoy Krymskoye&quot;,
+            &quot;polusladkoye Gelendzhik krasnoye&quot;, &quot;sukhoye&quot;, &quot;NEW Vina tamani kaberne stolovoye&quot;, &quot;sukhoye&quot;,
+            &quot;NEW Tamanskiy pogreb&quot;, ]</text>
+      </register>
+      <register name="6" type="4">
         <text>import  socket
 host = ''
 input(host)
 sock = socket.socket()
 sock.blind((host,9000))</text>
       </register>
-      <register name="2" type="4">
+      <register name="7" type="4">
         <text encoding="base64">aW1wb3J0IGN2MgppbXBvcnQgbnVtcHkgYXMgbnAKCmNhdF9pbWFnZSA9IGN2Mi5pbXJlYWQoJ2tvdC1yeXpoaXktdHJhdmEtY3ZldHkuanBnJykKcHJpbnQodHlwZShjYXRfaW1hZ2UpLCBjYXRfaW1hZ2Uuc2hhcGUpCgo8Y2xhc3MgJ251bXB5Lm5kYXJyYXknPiAoMzgwLCA1OTYsIA==</text>
       </register>
-      <register name="3" type="4">
+      <register name="8" type="4">
         <text>import evdev
 
 devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
                 for device in devices:</text>
       </register>
-      <register name="4" type="4">
+      <register name="9" type="4">
         <text>k = list(for win32api.FindFiles('users') in range(0,1000,1))
 print(k)</text>
       </register>
-      <register name="5" type="4">
-        <text>k=win32api.GetComputerName()
-s=win32api.GetLogicalDriveStrings()</text>
-      </register>
-      <register name="6" type="4">
-        <text>import evdev
-
- device = evdev.InputDevice('/dev/input/event1')
- print(device)
-    
-
- for event in device.read_loop():
-     if event.type == evdev.ecodes.EV_KEY:
-         print(evdev.categorize(event))</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">CmZyb20gcHlnYW1lLnJlY3QgaW1wb3J0IFJlY3QKCgpjbGFzcyBHYW1lT2JqZWN0OgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHgsIHksIHcsIGgsIHNwZWVkPSgwLDApKToKICAgICAgICBzZWxmLmJvdW5kcyA9IFJlY3QoeCwgeSwgdywgaCkKICAgICAgICBzZWxmLnNwZWVkID0gc3BlZWQKCiAgICBAcHJvcGVydHkKICAgIGRlZiBsZWZ0KHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5sZWZ0CgogICAgQHByb3BlcnR5CiAgICBkZWYgcmlnaHQoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYuYm91bmRzLnJpZ2h0CgogICAgQHByb3BlcnR5CiAgICBkZWYgdG9wKHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy50b3AKCiAgICBAcHJvcGVydHkKIAogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5jZW50ZXJ4</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgZGVmIGJvdHRvbShzZWxmKToKCiAgICAgICAgQHByb3BlcnR5CiAgICAgICAgZGVmIGNlbnRlcnkoc2VsZik6CiAgICAgICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5jZW50ZXJ5CgogICAgICAgIGRlZiBkcmF3KHNlbGYsIHN1cmZhY2UpOgogICAgICAgICAgICBwYXNzCgogICAgICAgIGRlZiBtb3ZlKHNlbGYsIGR4LCBkeSk6CiAgICAgICAgICAgIHNlbGYuYm91bmRzID0gc2VsZi5ib3VuZHMubW92ZShkeCwgZHkpCgogICAgICAgIGRlZiB1cGRhdGUoc2VsZik6CiAgICAgICAgICAgIGlmIHNlbGYuc3BlZWQgPT0gWzAsIDBdOgogICAgICAgICAgICAgICAgcmV0dXJuCgogICAgICAgICAgICBzZWxmLm1vdmUoKnNlbGYuc3BlZWQpCgogICAgICAgIHJldHVybiBzZWxmLmJvdW5kcy5ib3R0b20KCiAgICBAcHJvcGVydHkKICAgIGRlZiB3aWR0aChzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5ib3VuZHMud2lkdGgKCiAgICBAcHJvcGVydHkKICAgIGRlZiBoZWlnaHQoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYuYm91bmRzLmhlaWdodAoKICAgIEBwcm9wZXJ0eQogICAgZGVmIGNlbnRlcihzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5ib3VuZHMuY2VudGVyCgogICAgQHByb3BlcnR5CiAgICBkZWYgY2VudGVyeChzZWxmKTo=</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgIHByaW50KGFbaV0pCiA=</text>
-      </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgICAgICAgcHJpbnQoZGV2aWNlLnBhdGgsIGRldmljZS5uYW1lLCBkZXZpY2UucGh5cyk=</text>
+        <text />
       </register>
     </registers>
     <search>
