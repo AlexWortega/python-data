@@ -183,10 +183,10 @@
       <file name="$USER_HOME$/PycharmProjects/genetic_alogoritm/all.py" timestamp="1521662519699">
         <mark key="[" line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/msu/aaa.py" timestamp="1535755509488">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/msu/aaa.py" timestamp="1535764126015">
+        <mark key="[" line="9" column="32" />
+        <mark key="]" line="9" column="32" />
+        <mark key="." line="9" column="32" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/tensorflow/graf.py" timestamp="1518895427095">
         <mark key="[" line="35" column="7" />
@@ -267,10 +267,7 @@ mic = sr.Microphone()
 print(sr.Microphone.list_microphone_names())</text>
       </register>
       <register name="&quot;" type="4">
-        <text>import speech_recognition as sr
-r = sr.Recognizer()
-mic = sr.Microphone()
-print(sr.Microphone.list_microphone_names())</text>
+        <text>recognize_google(audio,language=&quot;ru_RU&quot;)</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">ICB0cmVlKHVzZXIpCiAgICBmb3Igd2luZSBpbiBuYW1lOgogICAgICAgIGkgPSBpICsgMQogICAgICAgIGlmIHRleHQgPT0gd2luZToKICAgICAgICAgICAgZm9yIGNhbCBpbiBzdWdhcjoKICAgICAgICAgICAgICAgIGogPSBqICsgMQogICAgICAgICAgICAgICAgaWYgaiA9PSBpOgogICAgICAgICAgICAgICAgICByZXR1cm4gd2lu</text>
@@ -315,7 +312,7 @@ devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
                 for device in devices:</text>
       </register>
       <register name="-" type="4">
-        <text>print(sr.__version__)</text>
+        <text>recognize_google(audio,language=&quot;ru_RU&quot;)</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxwcmludFw+</text>
@@ -357,6 +354,9 @@ devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed T</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
