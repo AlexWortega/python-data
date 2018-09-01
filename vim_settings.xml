@@ -124,8 +124,11 @@
       <file name="$USER_HOME$/PycharmProjects/sberhack/31.08-9.09/speech.py" timestamp="1535754184714">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/msu/test.py" timestamp="1535755871736">
-        <mark key="'" line="72" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/msu/test.py" timestamp="1535798257623">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="1" />
+        <mark key="." line="0" column="1" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/aihack_cv_test/webcam.py" timestamp="1519755241810">
         <mark key="[" line="0" column="0" />
@@ -184,9 +187,9 @@
         <mark key="[" line="3" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/msu/aaa.py" timestamp="1535764126015">
-        <mark key="[" line="9" column="32" />
-        <mark key="]" line="9" column="32" />
-        <mark key="." line="9" column="32" />
+        <mark key="[" line="10" column="32" />
+        <mark key="]" line="10" column="32" />
+        <mark key="." line="10" column="32" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/tensorflow/graf.py" timestamp="1518895427095">
         <mark key="[" line="35" column="7" />
@@ -261,33 +264,180 @@
     </jumps>
     <registers>
       <register name="1" type="4">
+        <text>mport speech_recognition as sr
+
+# obtain audio from the microphone
+r = sr.Recognizer()
+with sr.Microphone() as source:
+    print(&quot;Say something!&quot;)
+    audio = r.listen(source)
+
+# recognize speech using Sphinx
+try:
+    print(&quot;Sphinx thinks you said &quot; + r.recognize_sphinx(audio))
+except sr.UnknownValueError:
+    print(&quot;Sphinx could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Sphinx error; {0}&quot;.format(e))
+
+# recognize speech using Google Speech Recognition
+try:
+    # for testing purposes, we're just using the default API key
+    # to use another API key, use `r.recognize_google(audio, key=&quot;GOOGLE_SPEECH_RECOGNITION_API_KEY&quot;)`
+    # instead of `r.recognize_google(audio)`
+    print(&quot;Google Speech Recognition thinks you said &quot; + r.recognize_google(audio))
+except sr.UnknownValueError:
+    print(&quot;Google Speech Recognition could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from Google Speech Recognition service; {0}&quot;.format(e))
+
+# recognize speech using Google Cloud Speech
+GOOGLE_CLOUD_SPEECH_CREDENTIALS = r&quot;&quot;&quot;INSERT THE CONTENTS OF THE GOOGLE CLOUD SPEECH JSON CREDENTIALS FILE HERE&quot;&quot;&quot;
+try:
+    print(&quot;Google Cloud Speech thinks you said &quot; + r.recognize_google_cloud(audio, credentials_json=GOOGLE_CLOUD_SPEECH_CREDENTIALS))
+except sr.UnknownValueError:
+    print(&quot;Google Cloud Speech could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from Google Cloud Speech service; {0}&quot;.format(e))
+
+# recognize speech using Wit.ai
+WIT_AI_KEY = &quot;INSERT WIT.AI API KEY HERE&quot;  # Wit.ai keys are 32-character uppercase alphanumeric strings
+try:
+    print(&quot;Wit.ai thinks you said &quot; + r.recognize_wit(audio, key=WIT_AI_KEY))
+except sr.UnknownValueError:
+    print(&quot;Wit.ai could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from Wit.ai service; {0}&quot;.format(e))
+
+# recognize speech using Microsoft Bing Voice Recognition
+BING_KEY = &quot;INSERT BING API KEY HERE&quot;  # Microsoft Bing Voice Recognition API keys 32-character lowercase hexadecimal strings
+try:
+    print(&quot;Microsoft Bing Voice Recognition thinks you said &quot; + r.recognize_bing(audio, key=BING_KEY))
+except sr.UnknownValueError:
+    print(&quot;Microsoft Bing Voice Recognition could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from Microsoft Bing Voice Recognition service; {0}&quot;.format(e))
+
+# recognize speech using Houndify
+HOUNDIFY_CLIENT_ID = &quot;INSERT HOUNDIFY CLIENT ID HERE&quot;  # Houndify client IDs are Base64-encoded strings
+HOUNDIFY_CLIENT_KEY = &quot;INSERT HOUNDIFY CLIENT KEY HERE&quot;  # Houndify client keys are Base64-encoded strings
+try:
+    print(&quot;Houndify thinks you said &quot; + r.recognize_houndify(audio, client_id=HOUNDIFY_CLIENT_ID, client_key=HOUNDIFY_CLIENT_KEY))
+except sr.UnknownValueError:
+    print(&quot;Houndify could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from Houndify service; {0}&quot;.format(e))
+
+# recognize speech using IBM Speech to Text
+IBM_USERNAME = &quot;INSERT IBM SPEECH TO TEXT USERNAME HERE&quot;  # IBM Speech to Text usernames are strings of the form XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+IBM_PASSWORD = &quot;INSERT IBM SPEECH TO TEXT PASSWORD HERE&quot;  # IBM Speech to Text passwords are mixed-case alphanumeric strings
+try:
+    print(&quot;IBM Speech to Text thinks you said &quot; + r.recognize_ibm(audio, username=IBM_USERNAME, password=IBM_PASSWORD))
+except sr.UnknownValueError:
+    print(&quot;IBM Speech to Text could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from IBM Speech to Text service; {0}&quot;)</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text>mport speech_recognition as sr
+
+# obtain audio from the microphone
+r = sr.Recognizer()
+with sr.Microphone() as source:
+    print(&quot;Say something!&quot;)
+    audio = r.listen(source)
+
+# recognize speech using Sphinx
+try:
+    print(&quot;Sphinx thinks you said &quot; + r.recognize_sphinx(audio))
+except sr.UnknownValueError:
+    print(&quot;Sphinx could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Sphinx error; {0}&quot;.format(e))
+
+# recognize speech using Google Speech Recognition
+try:
+    # for testing purposes, we're just using the default API key
+    # to use another API key, use `r.recognize_google(audio, key=&quot;GOOGLE_SPEECH_RECOGNITION_API_KEY&quot;)`
+    # instead of `r.recognize_google(audio)`
+    print(&quot;Google Speech Recognition thinks you said &quot; + r.recognize_google(audio))
+except sr.UnknownValueError:
+    print(&quot;Google Speech Recognition could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from Google Speech Recognition service; {0}&quot;.format(e))
+
+# recognize speech using Google Cloud Speech
+GOOGLE_CLOUD_SPEECH_CREDENTIALS = r&quot;&quot;&quot;INSERT THE CONTENTS OF THE GOOGLE CLOUD SPEECH JSON CREDENTIALS FILE HERE&quot;&quot;&quot;
+try:
+    print(&quot;Google Cloud Speech thinks you said &quot; + r.recognize_google_cloud(audio, credentials_json=GOOGLE_CLOUD_SPEECH_CREDENTIALS))
+except sr.UnknownValueError:
+    print(&quot;Google Cloud Speech could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from Google Cloud Speech service; {0}&quot;.format(e))
+
+# recognize speech using Wit.ai
+WIT_AI_KEY = &quot;INSERT WIT.AI API KEY HERE&quot;  # Wit.ai keys are 32-character uppercase alphanumeric strings
+try:
+    print(&quot;Wit.ai thinks you said &quot; + r.recognize_wit(audio, key=WIT_AI_KEY))
+except sr.UnknownValueError:
+    print(&quot;Wit.ai could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from Wit.ai service; {0}&quot;.format(e))
+
+# recognize speech using Microsoft Bing Voice Recognition
+BING_KEY = &quot;INSERT BING API KEY HERE&quot;  # Microsoft Bing Voice Recognition API keys 32-character lowercase hexadecimal strings
+try:
+    print(&quot;Microsoft Bing Voice Recognition thinks you said &quot; + r.recognize_bing(audio, key=BING_KEY))
+except sr.UnknownValueError:
+    print(&quot;Microsoft Bing Voice Recognition could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from Microsoft Bing Voice Recognition service; {0}&quot;.format(e))
+
+# recognize speech using Houndify
+HOUNDIFY_CLIENT_ID = &quot;INSERT HOUNDIFY CLIENT ID HERE&quot;  # Houndify client IDs are Base64-encoded strings
+HOUNDIFY_CLIENT_KEY = &quot;INSERT HOUNDIFY CLIENT KEY HERE&quot;  # Houndify client keys are Base64-encoded strings
+try:
+    print(&quot;Houndify thinks you said &quot; + r.recognize_houndify(audio, client_id=HOUNDIFY_CLIENT_ID, client_key=HOUNDIFY_CLIENT_KEY))
+except sr.UnknownValueError:
+    print(&quot;Houndify could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from Houndify service; {0}&quot;.format(e))
+
+# recognize speech using IBM Speech to Text
+IBM_USERNAME = &quot;INSERT IBM SPEECH TO TEXT USERNAME HERE&quot;  # IBM Speech to Text usernames are strings of the form XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+IBM_PASSWORD = &quot;INSERT IBM SPEECH TO TEXT PASSWORD HERE&quot;  # IBM Speech to Text passwords are mixed-case alphanumeric strings
+try:
+    print(&quot;IBM Speech to Text thinks you said &quot; + r.recognize_ibm(audio, username=IBM_USERNAME, password=IBM_PASSWORD))
+except sr.UnknownValueError:
+    print(&quot;IBM Speech to Text could not understand audio&quot;)
+except sr.RequestError as e:
+    print(&quot;Could not request results from IBM Speech to Text service; {0}&quot;)</text>
+      </register>
+      <register name="2" type="4">
         <text>import speech_recognition as sr
 r = sr.Recognizer()
 mic = sr.Microphone()
 print(sr.Microphone.list_microphone_names())</text>
       </register>
-      <register name="&quot;" type="4">
-        <text>recognize_google(audio,language=&quot;ru_RU&quot;)</text>
-      </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">ICB0cmVlKHVzZXIpCiAgICBmb3Igd2luZSBpbiBuYW1lOgogICAgICAgIGkgPSBpICsgMQogICAgICAgIGlmIHRleHQgPT0gd2luZToKICAgICAgICAgICAgZm9yIGNhbCBpbiBzdWdhcjoKICAgICAgICAgICAgICAgIGogPSBqICsgMQogICAgICAgICAgICAgICAgaWYgaiA9PSBpOgogICAgICAgICAgICAgICAgICByZXR1cm4gd2lu</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">ICAgIGJvdC5zZW5kX21lc3NhZ2UobWVzc2FnZS5jaGF0LmlkLCAiIM3g6eTzIOLg7CD38u4g7egg4fPk/CIsIHJlcGx5X21hcmt1cD1rZXlib2FyZCkKICAgICAgICB0aW1lLnNsZWVwKDIpCiAgICAgICAgYm90LnNlbmRfbWVzc2FnZShtZXNzYWdlLmNoYXQuaWQsIiDS7vft7vHy/CA6IDAuOTMzIikKICAgICAgICBib3Quc2VuZF9waG90byhtZXNzYWdlLmNoYXQuaWQsICdodHRwOi8vY3VsaW5hcnlzY2hvb2wucnUvcHJvZmVzc2l5YS1zb21lbGllLycpCiAgICAgICAgdGltZS5zbGVlcCgyKQogICAgICAgIGJvdC5zZW5kX3Bob3RvKG1lc3NhZ2UuY2hhdC5pZCwgJ2h0dHA6Ly9tcG9ydC51YS9iYXIvc29tZWx5ZS8xNTI4MDgyLVNvdmV0LWRuamEtb3Qtc29tZWwtZS0tZGVndXN0aXJ1ai1zLXJ1Y2hrb2onKQogICAgICAgIHRpbWUuc2xlZXAoMikKICAgICAgICBib3QgLnNlbmRfcGhvdG8obWVzc2FnZS5jaGF0LmlkLCdodHRwczovL3Rvd2FyZHNkYXRhc2NpZW5jZS5jb20vcmFuZG9tLWZvcmVzdC1sZWFybmluZy1lc3NlbnRpYWwtdW5kZXJzdGFuZGluZy0xY2E4NTZhOTYzY2InKQogICAgICAgIHRpbWUuc2xlZXAoNik=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>sugar = [7, 9, 12, 6, 6, 6, 9, 6, 6, 8, 9]
 ph = [12,34,56,67,78,54,43]
 user = [id,ph,sugar]</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>name = [&quot;Chernomorskaya istina merlo kuban&quot;, &quot;sukhoye Krymskiy Vinnyy zavod Merlo&quot;, &quot;polusladkoye Agora&quot;,
             &quot; Sladkoye Gelendzhik krasnoye&quot;, &quot;sukhoye Vina tamani&quot;, &quot; kaberne&quot;, &quot; stolovoye sukhoye&quot;
                                                                                 &quot;Tamanskiy pogreb&quot;, &quot;sukhoy Krymskoye&quot;,
             &quot;polusladkoye Gelendzhik krasnoye&quot;, &quot;sukhoye&quot;, &quot;NEW Vina tamani kaberne stolovoye&quot;, &quot;sukhoye&quot;,
             &quot;NEW Tamanskiy pogreb&quot;,</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>sugar = [7, 9, 12, 6, 6, 6, 9, 6, 6, 8, 9]
     name = [&quot;Chernomorskaya istina merlo kuban&quot;, &quot;sukhoye Krymskiy Vinnyy zavod Merlo&quot;, &quot;polusladkoye Agora&quot;,
             &quot; Sladkoye Gelendzhik krasnoye&quot;, &quot;sukhoye Vina tamani&quot;, &quot; kaberne&quot;, &quot; stolovoye sukhoye&quot;
@@ -295,21 +445,15 @@ user = [id,ph,sugar]</text>
             &quot;polusladkoye Gelendzhik krasnoye&quot;, &quot;sukhoye&quot;, &quot;NEW Vina tamani kaberne stolovoye&quot;, &quot;sukhoye&quot;,
             &quot;NEW Tamanskiy pogreb&quot;, ]</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>import  socket
 host = ''
 input(host)
 sock = socket.socket()
 sock.blind((host,9000))</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">aW1wb3J0IGN2MgppbXBvcnQgbnVtcHkgYXMgbnAKCmNhdF9pbWFnZSA9IGN2Mi5pbXJlYWQoJ2tvdC1yeXpoaXktdHJhdmEtY3ZldHkuanBnJykKcHJpbnQodHlwZShjYXRfaW1hZ2UpLCBjYXRfaW1hZ2Uuc2hhcGUpCgo8Y2xhc3MgJ251bXB5Lm5kYXJyYXknPiAoMzgwLCA1OTYsIA==</text>
-      </register>
       <register name="9" type="4">
-        <text>import evdev
-
-devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
-                for device in devices:</text>
+        <text encoding="base64">aW1wb3J0IGN2MgppbXBvcnQgbnVtcHkgYXMgbnAKCmNhdF9pbWFnZSA9IGN2Mi5pbXJlYWQoJ2tvdC1yeXpoaXktdHJhdmEtY3ZldHkuanBnJykKcHJpbnQodHlwZShjYXRfaW1hZ2UpLCBjYXRfaW1hZ2Uuc2hhcGUpCgo8Y2xhc3MgJ251bXB5Lm5kYXJyYXknPiAoMzgwLCA1OTYsIA==</text>
       </register>
       <register name="-" type="4">
         <text>recognize_google(audio,language=&quot;ru_RU&quot;)</text>
