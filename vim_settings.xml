@@ -235,6 +235,11 @@
       <file name="/Dummy.txt" timestamp="1535754411486">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/PycharmProjects/hack_city/some.py" timestamp="1536428715552">
+        <mark key="[" line="0" column="40" />
+        <mark key="]" line="0" column="40" />
+        <mark key="." line="0" column="40" />
+      </file>
       <file name="$USER_HOME$/PycharmProjects/genetic_alogoritm/neural_neyrn.py" timestamp="1526127948629">
         <mark key="[" line="11" column="26" />
       </file>
@@ -298,12 +303,15 @@
     </jumps>
     <registers>
       <register name="1" type="4">
-        <text encoding="base64">CmN2Mi5pbXNob3coInJyIixpbWFnZSk=</text>
+        <text encoding="base64">CmZvciBpIGluIHJhbmdlKDAsNSwxKTo=</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">CmN2Mi5pbXNob3coInJyIixpbWFnZSk=</text>
+        <text encoding="base64">CmZvciBpIGluIHJhbmdlKDAsNSwxKTo=</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">CmN2Mi5pbXNob3coInJyIixpbWFnZSk=</text>
+      </register>
+      <register name="3" type="4">
         <text>d
 distance
 from camera to
@@ -313,19 +321,19 @@ using
 Python and OpenCV
 Python</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">CjI2CjI3CjI4CjI5CjMwCjMxCjMyCjMzCjM0CjM1CjM2CjM3CjM4CjM5</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">aW1wb3J0IHNwZWVjaF9yZWNvZ25pdGlvbiBhcyBzcgpyZWNvcmQgPSBzci5SZWNvZ25pemVyKCkKbWljID0gc3IuTWljcm9waG9uZSgpCnRyeToKICAgICAgICB3aGlsZSBUcnVlOgogICAgICAgICAgICBwcmludCgic2tmZWoiKQogICAgICAgICAgICB3aXRoIG1pYyBhcyBzb3VyY2U6CiAgICAgICAgICAgICAgICBwcmludCgicm9iaXQiKQoKICAgICAgICAgICAgICAgIGF1ZGlvID0gcmVjb3JkLmxpc3Rlbihzb3VyY2UpCiAgICAgICAgICAgICAgICByZXN1bHQgPSByZWNvcmQucmVjb2duaXplX2dvb2dsZShhdWRpbyxsYW5ndWFnZT0icnVfUlUiKQogICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0CiAgICAgICAgICAgICAgICBwcmludChyZXN1bHQpCmV4Y2VwdCBzci5Vbmtub3duVmFsdWVFcnJvcjoKICAgIHByaW50KCgnaGZmaGYnKSkK</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>import pyttsx
 engine = pyttsx.init()
 engine.say('Good morning.')
 engine.runAndWait()</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>import speech_recognition as sr
 
 # get audio from the microphone
@@ -341,7 +349,7 @@ except sr.UnknownValueError:
 except sr.RequestError as e:
     print(&quot;Could not request results; {0}&quot;.format(e))</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>mport speech_recognition as sr
 
 # obtain audio from the microphone
@@ -416,14 +424,11 @@ except sr.UnknownValueError:
 except sr.RequestError as e:
     print(&quot;Could not request results from IBM Speech to Text service; {0}&quot;)</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>import speech_recognition as sr
 r = sr.Recognizer()
 mic = sr.Microphone()
 print(sr.Microphone.list_microphone_names())</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICB0cmVlKHVzZXIpCiAgICBmb3Igd2luZSBpbiBuYW1lOgogICAgICAgIGkgPSBpICsgMQogICAgICAgIGlmIHRleHQgPT0gd2luZToKICAgICAgICAgICAgZm9yIGNhbCBpbiBzdWdhcjoKICAgICAgICAgICAgICAgIGogPSBqICsgMQogICAgICAgICAgICAgICAgaWYgaiA9PSBpOgogICAgICAgICAgICAgICAgICByZXR1cm4gd2lu</text>
       </register>
       <register name="-" type="4">
         <text>enter(frame)</text>
