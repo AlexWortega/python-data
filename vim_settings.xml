@@ -254,6 +254,10 @@
       <file name="$USER_HOME$/PycharmProjects/haar-TRAINER/train_bash.sh" timestamp="1519982381292">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Downloads/FHE5ILKHMMFAE87.py" timestamp="1536386627669">
+        <mark key="'" line="225" column="39" />
+        <mark key="[" line="232" column="30" />
+      </file>
       <file name="$USER_HOME$/PycharmProjects/camp_site/bot.py" timestamp="1532344072071">
         <mark key="[" line="33" column="7" />
         <mark key="]" line="33" column="7" />
@@ -269,6 +273,7 @@
       <jump line="24" column="5" filename="$USER_HOME$/PycharmProjects/untitled/derfa.py" />
       <jump line="9" column="5" filename="$USER_HOME$/PycharmProjects/camp_site/client.py" />
       <jump line="72" column="0" filename="$USER_HOME$/PycharmProjects/msu/test.py" />
+      <jump line="225" column="39" filename="$USER_HOME$/Downloads/FHE5ILKHMMFAE87.py" />
     </jumps>
     <registers>
       <register name="1" type="4">
