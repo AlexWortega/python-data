@@ -248,10 +248,10 @@
         <mark key="]" line="52" column="16" />
         <mark key="." line="52" column="16" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/hack_city/microsoft-EMOTION.py" timestamp="1536431356149">
-        <mark key="[" line="49" column="19" />
-        <mark key="]" line="49" column="19" />
-        <mark key="." line="49" column="19" />
+      <file name="$USER_HOME$/PycharmProjects/hack_city/microsoft-EMOTION.py" timestamp="1536436661427">
+        <mark key="[" line="22" column="13" />
+        <mark key="]" line="22" column="13" />
+        <mark key="." line="22" column="13" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/photolab/tf.py" timestamp="1528970338959">
         <mark key="[" line="0" column="0" />
@@ -306,7 +306,7 @@
         <text encoding="base64">CmZvciBpIGluIHJhbmdlKDAsNSwxKTo=</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">CmZvciBpIGluIHJhbmdlKDAsNSwxKTo=</text>
+        <text>https://how-old.net/Images/faces2/main007.jpg</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">CmN2Mi5pbXNob3coInJyIixpbWFnZSk=</text>
@@ -431,7 +431,7 @@ mic = sr.Microphone()
 print(sr.Microphone.list_microphone_names())</text>
       </register>
       <register name="-" type="4">
-        <text>enter(frame)</text>
+        <text>https://how-old.net/Images/faces2/main007.jpg</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxwcmludFw+</text>
