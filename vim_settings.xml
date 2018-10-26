@@ -99,10 +99,10 @@
         <mark key="]" line="75" column="11" />
         <mark key="." line="75" column="11" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/sberhack/hackmoskow/sms.py" timestamp="1540579097258">
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="5" column="0" />
-        <mark key="." line="5" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/sberhack/hackmoskow/sms.py" timestamp="1540579687847">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/msu/chatter.py" timestamp="1535828666589">
         <mark key="[" line="15" column="0" />
@@ -319,24 +319,57 @@
     </jumps>
     <registers>
       <register name="1" type="4">
-        <text encoding="base64">CgoKIyBZb3VyIEFjY291bnQgU2lkIGFuZCBBdXRoIFRva2VuIGZyb20gdHdpbGlvLmNvbS9jb25zb2xlCmFjY291bnRfc2lkID0gJ0FDY2Y1NGE0MWZmMWYyYTU1MjE3ZTIyMDQ0MmQwNDg5MGYnCmF1dGhfdG9rZW4gPSAneW91cl9hdXRoX3Rva2VuJw==</text>
+        <text>from twilio.rest import Client
+
+# Your Account Sid and Auth Token from twilio.com/user/account
+account_sid = &quot;ACcf54a41ff1f2a55217e220442d04890f&quot;
+auth_token = &quot;ceb66e7781566e042fa69be23b89cdd2&quot;
+
+client = Client(account_sid, auth_token)
+
+message = client.messages \
+                .create(
+                     body=&quot;Join Earth's mightiest heroes. Like Kevin Bacon.&quot;,
+                     from_='+15017122661',
+                     to='+79779418099'
+                 )
+
+print(message.sid)</text>
       </register>
       <register name="&quot;" type="4">
-        <text />
+        <text>from twilio.rest import Client
+
+# Your Account Sid and Auth Token from twilio.com/user/account
+account_sid = &quot;ACcf54a41ff1f2a55217e220442d04890f&quot;
+auth_token = &quot;ceb66e7781566e042fa69be23b89cdd2&quot;
+
+client = Client(account_sid, auth_token)
+
+message = client.messages \
+                .create(
+                     body=&quot;Join Earth's mightiest heroes. Like Kevin Bacon.&quot;,
+                     from_='+15017122661',
+                     to='+79779418099'
+                 )
+
+print(message.sid)</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">CmNsaWVudCA9IENsaWVudChhY2NvdW50X3NpZCwgYXV0aF90b2tlbikKCm1lc3NhZ2UgPSBjbGllbnQubWVzc2FnZXMoIk1NODAwZjQ0OWQwMzk5ZWQwMTRhYWUyYmNjMGNjMmYyZWMiKSBcCiAgICAgICAgICAgICAgICAuZmV0Y2goKQoKcHJpbnQobWVzc2FnZS5ib2R5LmVuY29kZSgndXRmLTgnKSk=</text>
+        <text encoding="base64">CgoKIyBZb3VyIEFjY291bnQgU2lkIGFuZCBBdXRoIFRva2VuIGZyb20gdHdpbGlvLmNvbS9jb25zb2xlCmFjY291bnRfc2lkID0gJ0FDY2Y1NGE0MWZmMWYyYTU1MjE3ZTIyMDQ0MmQwNDg5MGYnCmF1dGhfdG9rZW4gPSAneW91cl9hdXRoX3Rva2VuJw==</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">aW1wb3J0IGZhY2VfcmVjb2duaXRpb24KaW1wb3J0IGN2MgoKIyBUaGlzIGlzIGEgc3VwZXIgc2ltcGxlIChidXQgc2xvdykgZXhhbXBsZSBvZiBydW5uaW5nIGZhY2UgcmVjb2duaXRpb24gb24gbGl2ZSB2aWRlbyBmcm9tIHlvdXIgd2ViY2FtLgojIFRoZXJlJ3MgYSBzZWNvbmQgZXhhbXBsZSB0aGF0J3MgYSBsaXR0bGUgbW9yZSBjb21wbGljYXRlZCBidXQgcnVucyBmYXN0ZXIuCgojIFBMRUFTRSBOT1RFOiBUaGlzIGV4YW1wbGUgcmVxdWlyZXMgT3BlbkNWICh0aGUgYGN2MmAgbGlicmFyeSkgdG8gYmUgaW5zdGFsbGVkIG9ubHkgdG8gcmVhZCBmcm9tIHlvdXIgd2ViY2FtLgojIE9wZW5DViBpcyAqbm90KiByZXF1aXJlZCB0byB1c2UgdGhlIGZhY2VfcmVjb2duaXRpb24gbGlicmFyeS4gSXQncyBvbmx5IHJlcXVpcmVkIGlmIHlvdSB3YW50IHRvIHJ1biB0aGlzCiMgc3BlY2lmaWMgZGVtby4gSWYgeW91IGhhdmUgdHJvdWJsZSBpbnN0YWxsaW5nIGl0LCB0cnkgYW55IG9mIHRoZSBvdGhlciBkZW1vcyB0aGF0IGRvbid0IHJlcXVpcmUgaXQgaW5zdGVhZC4KCiMgR2V0IGEgcmVmZXJlbmNlIHRvIHdlYmNhbSAjMCAodGhlIGRlZmF1bHQgb25lKQp2aWRlb19jYXB0dXJlID0gY3YyLlZpZGVvQ2FwdHVyZSgwKQoKIyBMb2FkIGEgc2FtcGxlIHBpY3R1cmUgYW5kIGxlYXJuIGhvdyB0byByZWNvZ25pemUgaXQuCm9iYW1hX2ltYWdlID0gZmFjZV9yZWNvZ25pdGlvbi5sb2FkX2ltYWdlX2ZpbGUoIm9iYW1hLmpwZyIpCm9iYW1hX2ZhY2VfZW5jb2RpbmcgPSBmYWNlX3JlY29nbml0aW9uLmZhY2VfZW5jb2RpbmdzKG9iYW1hX2ltYWdlKVswXQoKIyBMb2FkIGEgc2Vjb25kIHNhbXBsZSBwaWN0dXJlIGFuZCBsZWFybiBob3cgdG8gcmVjb2duaXplIGl0LgpiaWRlbl9pbWFnZSA9IGZhY2VfcmVjb2duaXRpb24ubG9hZF9pbWFnZV9maWxlKCJhbGV4LmpwZyIpCmJpZGVuX2ZhY2VfZW5jb2RpbmcgPSBmYWNlX3JlY29nbml0aW9uLmZhY2VfZW5jb2RpbmdzKGJpZGVuX2ltYWdlKVswXQoKIyBDcmVhdGUgYXJyYXlzIG9mIGtub3duIGZhY2UgZW5jb2RpbmdzIGFuZCB0aGVpciBuYW1lcwprbm93bl9mYWNlX2VuY29kaW5ncyA9IFsKICAgIG9iYW1hX2ZhY2VfZW5jb2RpbmcsCiAgICBiaWRlbl9mYWNlX2VuY29kaW5nCl0Ka25vd25fZmFjZV9uYW1lcyA9IFsKICAgICJCYXJhY2sgT2JhbWEiLAogICAgIkFsZXgiCl0KCndoaWxlIFRydWU6CiAgICAjIEdyYWIgYSBzaW5nbGUgZnJhbWUgb2YgdmlkZW8KICAgIHJldCwgZnJhbWUgPSB2aWRlb19jYXB0dXJlLnJlYWQoKQoKICAgICMgQ29udmVydCB0aGUgaW1hZ2UgZnJvbSBCR1IgY29sb3IgKHdoaWNoIE9wZW5DViB1c2VzKSB0byBSR0IgY29sb3IgKHdoaWNoIGZhY2VfcmVjb2duaXRpb24gdXNlcykKICAgIHJnYl9mcmFtZSA9IGZyYW1lWzosIDosIDo6LTFdCgogICAgIyBGaW5kIGFsbCB0aGUgZmFjZXMgYW5kIGZhY2UgZW5xY29kaW5ncyBpbiB0aGUgZnJhbWUgb2YgdmlkZW8KICAgIGZhY2VfbG9jYXRpb25zID0gZmFjZV9yZWNvZ25pdGlvbi5mYWNlX2xvY2F0aW9ucyhyZ2JfZnJhbWUpCiAgICBmYWNlX2VuY29kaW5ncyA9IGZhY2VfcmVjb2duaXRpb24uZmFjZV9lbmNvZGluZ3MocmdiX2ZyYW1lLCBmYWNlX2xvY2F0aW9ucykKCiAgICAjIExvb3AgdGhyb3VnaCBlYWNoIGZhY2UgaW4gdGhpcyBmcmFtZSBvZiB2aWRlbwogICAgZm9yICh0b3AsIHJpZ2h0LCBib3R0b20sIGxlZnQpLCBmYWNlX2VuY29kaW5nIGluIHppcChmYWNlX2xvY2F0aW9ucywgZmFjZV9lbmNvZGluZ3MpOgogICAgICAgICMgU2VlIGlmIHRoZSBmYWNlIGlzIGEgbWF0Y2ggZm9yIHRoZSBrbm93biBmYWNlKHMpCiAgICAgICAgbWF0Y2hlcyA9IGZhY2VfcmVjb2duaXRpb24uY29tcGFyZV9mYWNlcyhrbm93bl9mYWNlX2VuY29kaW5ncywgZmFjZV9lbmNvZGluZykKCiAgICAgICAgbmFtZSA9ICJVbmtub3duIgoKICAgICAgICAjIElmIGEgbWF0Y2ggd2FzIGZvdW5kIGluIGtub3duX2ZhY2VfZW5jb2RpbmdzLCBqdXN0IHVzZSB0aGUgZmlyc3Qgb25lLgogICAgICAgIGlmIFRydWUgaW4gbWF0Y2hlczoKICAgICAgICAgICAgZmlyc3RfbWF0Y2hfaW5kZXggPSBtYXRjaGVzLmluZGV4KFRydWUpCiAgICAgICAgICAgIG5hbWUgPSBrbm93bl9mYWNlX25hbWVzW2ZpcnN0X21hdGNoX2luZGV4XQoKICAgICAgICAjIERyYXcgYSBib3ggYXJvdW5kIHRoZSBmYWNlCiAgICAgICAgY3YyLnJlY3RhbmdsZShmcmFtZSwgKGxlZnQsIHRvcCksIChyaWdodCwgYm90dG9tKSwgKDAsIDAsIDI1NSksIDIpCgogICAgICAgICMgRHJhdyBhIGxhYmVsIHdpdGggYSBuYW1lIGJlbG93IHRoZSBmYWNlCiAgICAgICAgY3YyLnJlY3RhbmdsZShmcmFtZSwgKGxlZnQsIGJvdHRvbSAtIDM1KSwgKHJpZ2h0LCBib3R0b20pLCAoMCwgMCwgMjU1KSwgY3YyLkZJTExFRCkKICAgICAgICBmb250ID0gY3YyLkZPTlRfSEVSU0hFWV9EVVBMRVgKICAgICAgICBjdjIucHV0VGV4dChmcmFtZSwgbmFtZSwgKGxlZnQgKyA2LCBib3R0b20gLSA2KSwgZm9udCwgMS4wLCAoMjU1LCAyNTUsIDI1NSksIDEpCgogICAgIyBEaXNwbGF5IHRoZSByZXN1bHRpbmcgaW1hZ2UKICAgIGN2Mi5pbXNob3coJ1ZpZGVvJywgZnJhbWUpCgogICAgIyBIaXQgJ3EnIG9uIHRoZSBrZXlib2FyZCB0byBxdWl0IQogICAgaWYgY3YyLndhaXRLZXkoMSkgJiAweEZGID09IG9yZCgncScpOgogICAgICAgIGJyZWFrCgojIFJlbGVhc2UgaGFuZGxlIHRvIHRoZSB3ZWJjYW0KdmlkZW9fY2FwdHVyZS5yZWxlYXNlKCkKY3YyLmRlc3Ryb3lBbGxXaW5kb3dzKA==</text>
+        <text encoding="base64">CmNsaWVudCA9IENsaWVudChhY2NvdW50X3NpZCwgYXV0aF90b2tlbikKCm1lc3NhZ2UgPSBjbGllbnQubWVzc2FnZXMoIk1NODAwZjQ0OWQwMzk5ZWQwMTRhYWUyYmNjMGNjMmYyZWMiKSBcCiAgICAgICAgICAgICAgICAuZmV0Y2goKQoKcHJpbnQobWVzc2FnZS5ib2R5LmVuY29kZSgndXRmLTgnKSk=</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">CmZvciBpIGluIHJhbmdlKDAsNSwxKTo=</text>
+        <text encoding="base64">aW1wb3J0IGZhY2VfcmVjb2duaXRpb24KaW1wb3J0IGN2MgoKIyBUaGlzIGlzIGEgc3VwZXIgc2ltcGxlIChidXQgc2xvdykgZXhhbXBsZSBvZiBydW5uaW5nIGZhY2UgcmVjb2duaXRpb24gb24gbGl2ZSB2aWRlbyBmcm9tIHlvdXIgd2ViY2FtLgojIFRoZXJlJ3MgYSBzZWNvbmQgZXhhbXBsZSB0aGF0J3MgYSBsaXR0bGUgbW9yZSBjb21wbGljYXRlZCBidXQgcnVucyBmYXN0ZXIuCgojIFBMRUFTRSBOT1RFOiBUaGlzIGV4YW1wbGUgcmVxdWlyZXMgT3BlbkNWICh0aGUgYGN2MmAgbGlicmFyeSkgdG8gYmUgaW5zdGFsbGVkIG9ubHkgdG8gcmVhZCBmcm9tIHlvdXIgd2ViY2FtLgojIE9wZW5DViBpcyAqbm90KiByZXF1aXJlZCB0byB1c2UgdGhlIGZhY2VfcmVjb2duaXRpb24gbGlicmFyeS4gSXQncyBvbmx5IHJlcXVpcmVkIGlmIHlvdSB3YW50IHRvIHJ1biB0aGlzCiMgc3BlY2lmaWMgZGVtby4gSWYgeW91IGhhdmUgdHJvdWJsZSBpbnN0YWxsaW5nIGl0LCB0cnkgYW55IG9mIHRoZSBvdGhlciBkZW1vcyB0aGF0IGRvbid0IHJlcXVpcmUgaXQgaW5zdGVhZC4KCiMgR2V0IGEgcmVmZXJlbmNlIHRvIHdlYmNhbSAjMCAodGhlIGRlZmF1bHQgb25lKQp2aWRlb19jYXB0dXJlID0gY3YyLlZpZGVvQ2FwdHVyZSgwKQoKIyBMb2FkIGEgc2FtcGxlIHBpY3R1cmUgYW5kIGxlYXJuIGhvdyB0byByZWNvZ25pemUgaXQuCm9iYW1hX2ltYWdlID0gZmFjZV9yZWNvZ25pdGlvbi5sb2FkX2ltYWdlX2ZpbGUoIm9iYW1hLmpwZyIpCm9iYW1hX2ZhY2VfZW5jb2RpbmcgPSBmYWNlX3JlY29nbml0aW9uLmZhY2VfZW5jb2RpbmdzKG9iYW1hX2ltYWdlKVswXQoKIyBMb2FkIGEgc2Vjb25kIHNhbXBsZSBwaWN0dXJlIGFuZCBsZWFybiBob3cgdG8gcmVjb2duaXplIGl0LgpiaWRlbl9pbWFnZSA9IGZhY2VfcmVjb2duaXRpb24ubG9hZF9pbWFnZV9maWxlKCJhbGV4LmpwZyIpCmJpZGVuX2ZhY2VfZW5jb2RpbmcgPSBmYWNlX3JlY29nbml0aW9uLmZhY2VfZW5jb2RpbmdzKGJpZGVuX2ltYWdlKVswXQoKIyBDcmVhdGUgYXJyYXlzIG9mIGtub3duIGZhY2UgZW5jb2RpbmdzIGFuZCB0aGVpciBuYW1lcwprbm93bl9mYWNlX2VuY29kaW5ncyA9IFsKICAgIG9iYW1hX2ZhY2VfZW5jb2RpbmcsCiAgICBiaWRlbl9mYWNlX2VuY29kaW5nCl0Ka25vd25fZmFjZV9uYW1lcyA9IFsKICAgICJCYXJhY2sgT2JhbWEiLAogICAgIkFsZXgiCl0KCndoaWxlIFRydWU6CiAgICAjIEdyYWIgYSBzaW5nbGUgZnJhbWUgb2YgdmlkZW8KICAgIHJldCwgZnJhbWUgPSB2aWRlb19jYXB0dXJlLnJlYWQoKQoKICAgICMgQ29udmVydCB0aGUgaW1hZ2UgZnJvbSBCR1IgY29sb3IgKHdoaWNoIE9wZW5DViB1c2VzKSB0byBSR0IgY29sb3IgKHdoaWNoIGZhY2VfcmVjb2duaXRpb24gdXNlcykKICAgIHJnYl9mcmFtZSA9IGZyYW1lWzosIDosIDo6LTFdCgogICAgIyBGaW5kIGFsbCB0aGUgZmFjZXMgYW5kIGZhY2UgZW5xY29kaW5ncyBpbiB0aGUgZnJhbWUgb2YgdmlkZW8KICAgIGZhY2VfbG9jYXRpb25zID0gZmFjZV9yZWNvZ25pdGlvbi5mYWNlX2xvY2F0aW9ucyhyZ2JfZnJhbWUpCiAgICBmYWNlX2VuY29kaW5ncyA9IGZhY2VfcmVjb2duaXRpb24uZmFjZV9lbmNvZGluZ3MocmdiX2ZyYW1lLCBmYWNlX2xvY2F0aW9ucykKCiAgICAjIExvb3AgdGhyb3VnaCBlYWNoIGZhY2UgaW4gdGhpcyBmcmFtZSBvZiB2aWRlbwogICAgZm9yICh0b3AsIHJpZ2h0LCBib3R0b20sIGxlZnQpLCBmYWNlX2VuY29kaW5nIGluIHppcChmYWNlX2xvY2F0aW9ucywgZmFjZV9lbmNvZGluZ3MpOgogICAgICAgICMgU2VlIGlmIHRoZSBmYWNlIGlzIGEgbWF0Y2ggZm9yIHRoZSBrbm93biBmYWNlKHMpCiAgICAgICAgbWF0Y2hlcyA9IGZhY2VfcmVjb2duaXRpb24uY29tcGFyZV9mYWNlcyhrbm93bl9mYWNlX2VuY29kaW5ncywgZmFjZV9lbmNvZGluZykKCiAgICAgICAgbmFtZSA9ICJVbmtub3duIgoKICAgICAgICAjIElmIGEgbWF0Y2ggd2FzIGZvdW5kIGluIGtub3duX2ZhY2VfZW5jb2RpbmdzLCBqdXN0IHVzZSB0aGUgZmlyc3Qgb25lLgogICAgICAgIGlmIFRydWUgaW4gbWF0Y2hlczoKICAgICAgICAgICAgZmlyc3RfbWF0Y2hfaW5kZXggPSBtYXRjaGVzLmluZGV4KFRydWUpCiAgICAgICAgICAgIG5hbWUgPSBrbm93bl9mYWNlX25hbWVzW2ZpcnN0X21hdGNoX2luZGV4XQoKICAgICAgICAjIERyYXcgYSBib3ggYXJvdW5kIHRoZSBmYWNlCiAgICAgICAgY3YyLnJlY3RhbmdsZShmcmFtZSwgKGxlZnQsIHRvcCksIChyaWdodCwgYm90dG9tKSwgKDAsIDAsIDI1NSksIDIpCgogICAgICAgICMgRHJhdyBhIGxhYmVsIHdpdGggYSBuYW1lIGJlbG93IHRoZSBmYWNlCiAgICAgICAgY3YyLnJlY3RhbmdsZShmcmFtZSwgKGxlZnQsIGJvdHRvbSAtIDM1KSwgKHJpZ2h0LCBib3R0b20pLCAoMCwgMCwgMjU1KSwgY3YyLkZJTExFRCkKICAgICAgICBmb250ID0gY3YyLkZPTlRfSEVSU0hFWV9EVVBMRVgKICAgICAgICBjdjIucHV0VGV4dChmcmFtZSwgbmFtZSwgKGxlZnQgKyA2LCBib3R0b20gLSA2KSwgZm9udCwgMS4wLCAoMjU1LCAyNTUsIDI1NSksIDEpCgogICAgIyBEaXNwbGF5IHRoZSByZXN1bHRpbmcgaW1hZ2UKICAgIGN2Mi5pbXNob3coJ1ZpZGVvJywgZnJhbWUpCgogICAgIyBIaXQgJ3EnIG9uIHRoZSBrZXlib2FyZCB0byBxdWl0IQogICAgaWYgY3YyLndhaXRLZXkoMSkgJiAweEZGID09IG9yZCgncScpOgogICAgICAgIGJyZWFrCgojIFJlbGVhc2UgaGFuZGxlIHRvIHRoZSB3ZWJjYW0KdmlkZW9fY2FwdHVyZS5yZWxlYXNlKCkKY3YyLmRlc3Ryb3lBbGxXaW5kb3dzKA==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">CmN2Mi5pbXNob3coInJyIixpbWFnZSk=</text>
+        <text encoding="base64">CmZvciBpIGluIHJhbmdlKDAsNSwxKTo=</text>
       </register>
       <register name="6" type="4">
+        <text encoding="base64">CmN2Mi5pbXNob3coInJyIixpbWFnZSk=</text>
+      </register>
+      <register name="7" type="4">
         <text>d
 distance
 from camera to
@@ -346,17 +379,11 @@ using
 Python and OpenCV
 Python</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">CjI2CjI3CjI4CjI5CjMwCjMxCjMyCjMzCjM0CjM1CjM2CjM3CjM4CjM5</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">aW1wb3J0IHNwZWVjaF9yZWNvZ25pdGlvbiBhcyBzcgpyZWNvcmQgPSBzci5SZWNvZ25pemVyKCkKbWljID0gc3IuTWljcm9waG9uZSgpCnRyeToKICAgICAgICB3aGlsZSBUcnVlOgogICAgICAgICAgICBwcmludCgic2tmZWoiKQogICAgICAgICAgICB3aXRoIG1pYyBhcyBzb3VyY2U6CiAgICAgICAgICAgICAgICBwcmludCgicm9iaXQiKQoKICAgICAgICAgICAgICAgIGF1ZGlvID0gcmVjb3JkLmxpc3Rlbihzb3VyY2UpCiAgICAgICAgICAgICAgICByZXN1bHQgPSByZWNvcmQucmVjb2duaXplX2dvb2dsZShhdWRpbyxsYW5ndWFnZT0icnVfUlUiKQogICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0CiAgICAgICAgICAgICAgICBwcmludChyZXN1bHQpCmV4Y2VwdCBzci5Vbmtub3duVmFsdWVFcnJvcjoKICAgIHByaW50KCgnaGZmaGYnKSkK</text>
-      </register>
       <register name="9" type="4">
-        <text>import pyttsx
-engine = pyttsx.init()
-engine.say('Good morning.')
-engine.runAndWait()</text>
+        <text encoding="base64">aW1wb3J0IHNwZWVjaF9yZWNvZ25pdGlvbiBhcyBzcgpyZWNvcmQgPSBzci5SZWNvZ25pemVyKCkKbWljID0gc3IuTWljcm9waG9uZSgpCnRyeToKICAgICAgICB3aGlsZSBUcnVlOgogICAgICAgICAgICBwcmludCgic2tmZWoiKQogICAgICAgICAgICB3aXRoIG1pYyBhcyBzb3VyY2U6CiAgICAgICAgICAgICAgICBwcmludCgicm9iaXQiKQoKICAgICAgICAgICAgICAgIGF1ZGlvID0gcmVjb3JkLmxpc3Rlbihzb3VyY2UpCiAgICAgICAgICAgICAgICByZXN1bHQgPSByZWNvcmQucmVjb2duaXplX2dvb2dsZShhdWRpbyxsYW5ndWFnZT0icnVfUlUiKQogICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0CiAgICAgICAgICAgICAgICBwcmludChyZXN1bHQpCmV4Y2VwdCBzci5Vbmtub3duVmFsdWVFcnJvcjoKICAgIHByaW50KCgnaGZmaGYnKSkK</text>
       </register>
       <register name="-" type="4">
         <text />
