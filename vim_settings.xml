@@ -99,7 +99,7 @@
         <mark key="]" line="75" column="11" />
         <mark key="." line="75" column="11" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/sberhack/hackmoskow/sms.py" timestamp="1540579687847">
+      <file name="$USER_HOME$/PycharmProjects/sberhack/hackmoskow/sms.py" timestamp="1540580515297">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -337,22 +337,7 @@ message = client.messages \
 print(message.sid)</text>
       </register>
       <register name="&quot;" type="4">
-        <text>from twilio.rest import Client
-
-# Your Account Sid and Auth Token from twilio.com/user/account
-account_sid = &quot;ACcf54a41ff1f2a55217e220442d04890f&quot;
-auth_token = &quot;ceb66e7781566e042fa69be23b89cdd2&quot;
-
-client = Client(account_sid, auth_token)
-
-message = client.messages \
-                .create(
-                     body=&quot;Join Earth's mightiest heroes. Like Kevin Bacon.&quot;,
-                     from_='+15017122661',
-                     to='+79779418099'
-                 )
-
-print(message.sid)</text>
+        <text>import android</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">CgoKIyBZb3VyIEFjY291bnQgU2lkIGFuZCBBdXRoIFRva2VuIGZyb20gdHdpbGlvLmNvbS9jb25zb2xlCmFjY291bnRfc2lkID0gJ0FDY2Y1NGE0MWZmMWYyYTU1MjE3ZTIyMDQ0MmQwNDg5MGYnCmF1dGhfdG9rZW4gPSAneW91cl9hdXRoX3Rva2VuJw==</text>
@@ -386,7 +371,7 @@ Python</text>
         <text encoding="base64">aW1wb3J0IHNwZWVjaF9yZWNvZ25pdGlvbiBhcyBzcgpyZWNvcmQgPSBzci5SZWNvZ25pemVyKCkKbWljID0gc3IuTWljcm9waG9uZSgpCnRyeToKICAgICAgICB3aGlsZSBUcnVlOgogICAgICAgICAgICBwcmludCgic2tmZWoiKQogICAgICAgICAgICB3aXRoIG1pYyBhcyBzb3VyY2U6CiAgICAgICAgICAgICAgICBwcmludCgicm9iaXQiKQoKICAgICAgICAgICAgICAgIGF1ZGlvID0gcmVjb3JkLmxpc3Rlbihzb3VyY2UpCiAgICAgICAgICAgICAgICByZXN1bHQgPSByZWNvcmQucmVjb2duaXplX2dvb2dsZShhdWRpbyxsYW5ndWFnZT0icnVfUlUiKQogICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0CiAgICAgICAgICAgICAgICBwcmludChyZXN1bHQpCmV4Y2VwdCBzci5Vbmtub3duVmFsdWVFcnJvcjoKICAgIHByaW50KCgnaGZmaGYnKSkK</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>import android</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxwcmludFw+</text>
