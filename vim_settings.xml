@@ -14,8 +14,8 @@
         <mark key="]" line="16" column="43" />
         <mark key="." line="16" column="43" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/sberhack/300к/face.py" timestamp="1539692645551">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/sberhack/300к/face.py" timestamp="1540988863046">
+        <mark key="[" line="0" column="20" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
@@ -245,8 +245,10 @@
       <file name="/Dummy.txt" timestamp="1535754411486">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/sberhack/300к/gggg.py" timestamp="1540327449952">
+      <file name="$USER_HOME$/PycharmProjects/sberhack/300к/gggg.py" timestamp="1540988852260">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/hack_city/some.py" timestamp="1536428715552">
         <mark key="[" line="0" column="40" />
@@ -324,9 +326,7 @@ droid = pythonforandroid.__version__
 print(droid)</text>
       </register>
       <register name="&quot;" type="4">
-        <text>import pythonforandroid, smtplib, os
-droid = pythonforandroid.__version__
-print(droid)</text>
+        <text>i</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">CnJlc3VsdCA9IGRyb2lkLnNtc0dldE1lc3NhZ2VzKEZhbHNlKQ==</text>
@@ -374,7 +374,7 @@ print(message.sid)</text>
         <text encoding="base64">CmN2Mi5pbXNob3coInJyIixpbWFnZSk=</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>i</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxwcmludFw+</text>
